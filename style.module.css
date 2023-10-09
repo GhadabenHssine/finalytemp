@@ -1,0 +1,249 @@
+.container {
+    position: relative;
+
+    padding: 20px;
+}
+
+
+.containerTitle {
+    border-radius: 10px;
+    background: rgba(93, 65, 221, 0.28);
+    width: 354px;
+    height: 78px;
+    margin-left: -55px;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.containerIcons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.icons {
+    text-align: center;
+    width: 236px;
+    padding: 20px;
+
+
+}
+
+.titleIcons {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.paragrapheIcons {
+    color: #999;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+
+}
+
+.icon4 {
+    margin-top: -100px;
+}
+
+/*//////*/
+
+.backgroundImg {
+    position: absolute;
+    top: 0px;
+    margin-left: -20px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.landing {
+    padding: 20px;
+    position: relative;
+}
+
+.landing .titleLanding {
+    color: #5D41DD;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+.landing .paragrapheLanding {
+    color: #595959;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+    flex-wrap: wrap;
+}
+
+/* start box 1*/
+.landing .box .box1 {
+    width: 265px;
+    height: 390px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 3px 3px 17px 8px rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+
+.box .box1 .titleBox1 {
+    color: #252525;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 189.523%;
+}
+
+.box1 .SuTBox1 {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 189.523%;
+    margin-bottom: 26px;
+}
+
+.box1 .SuTBox1 span {
+    color: #252525;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 189.523%;
+
+}
+
+.box1 .paragrapheBox1 {
+    color: #686868;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 172.023%;
+}
+
+.box1 .btn1 {
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 1px 4px 7px 2px rgba(93, 65, 221, 0.25);
+    border: none;
+    color: rgba(93, 65, 221, 0.71);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 189.523%;
+    margin-top: 32px;
+}
+
+/* end box 1*/
+
+/*start box 2*/
+.box2 {
+    width: 300px;
+    height: 425px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #5D41DD;
+    box-shadow: -2px -2px 37px 10px rgba(93, 65, 221, 0.30);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.box2 .titleBox2 {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 189.523%;
+
+}
+
+.box2 .SuTBox2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 189.523%;
+}
+
+.box2 .SuTBox2 span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 189.523%;
+}
+
+.paragrapheBox2 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 172.023%;
+    margin-bottom: 52px;
+}
+
+.justflex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.justflex span {
+    font-weight: 600;
+}
+
+.box2 .btn2 {
+    width: 169px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: #272727;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 189.523%;
+    border: none;
+}
+
+/* end box 2*/
+
+@media screen and (max-width: 600px) {
+    .containerTitle {
+        margin-left: 0px;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .icon4 {
+        margin-top: 0px;
+
+    }
+}
